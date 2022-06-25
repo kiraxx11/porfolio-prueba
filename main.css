@@ -1,0 +1,443 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.125;
+}
+
+body {
+    font-family: monospace;
+    font-size: 1rem;
+    line-height: 1.5em;
+    background-color: rgb(245, 245, 245);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "eurostile", sans-serif;
+    font-weight: 800;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+p {
+    font-size: 1em;
+}
+
+.nav {}
+
+.contenedor-i {
+    display: flex;
+
+
+}
+
+.icon-b {
+
+    padding: 25px;
+    width: 100px;
+
+    margin: auto;
+}
+
+.nav h1 {
+    display: block;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    color: rgb(132, 38, 219);
+}
+
+.nav ul {
+    display: grid;
+    width: 100%;
+    border-top: 2px solid rgb(132, 38, 219);
+}
+
+.nav ul li {
+    list-style: none;
+
+    width: 100%;
+
+}
+
+.nav ul li a {
+    text-align: center;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: rgb(132, 38, 219);
+    font-weight: 800;
+    font-size: 1.125em;
+    padding: 5px 0px 5px 0px;
+    border-bottom: 2px solid rgb(132, 38, 219);
+    transition: .2s linear;
+}
+
+.nav ul li a:hover {
+    color: rgb(245, 245, 245);
+    background-color: rgb(132, 38, 219);
+
+}
+
+#welcome-section {
+    min-height: 400px;
+}
+
+.subhero {
+    width: 80vw;
+    margin: 80px auto 0px auto;
+
+}
+
+.subhero h1 {
+    font-size: 4em;
+    padding: 10px 0px;
+
+}
+
+.subhero p {
+    font-size: 1.75em;
+    color: rgb(132, 38, 219);
+    padding: 10px 0px;
+
+}
+
+.image-hero {
+    display: none;
+}
+
+.acerca {
+    background-color: rgb(132, 38, 219);
+    color: rgb(245, 245, 245);
+    padding: 80px 25px 0px 25px;
+    padding-bottom: 14rem;
+    text-align: center;
+}
+
+.acerca h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.acerca p {}
+
+.conocimientos {}
+
+.subcono {
+    margin: auto;
+    border-radius: 12px;
+    box-shadow: 0 5px 6px 3px rgba(233, 240, 243, 0.753), 0 0 0 1px #b4bcca;
+    padding: 50px 30px;
+    margin-top: -9rem;
+    background-color: rgb(245, 245, 245);
+    width: 88vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.subcono h1 {
+    font-size: 2em;
+    margin-bottom: 25px;
+}
+
+.contenedor-c {
+    margin-bottom: 30px;
+}
+
+.contenedor-c p {
+    font-size: 1.125em;
+    font-weight: 700;
+    color: rgb(132, 38, 219);
+    margin-top: 5px;
+}
+
+.icono {
+    height: 48px;
+    width: auto;
+}
+
+#projects {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#projects h1 {
+    font-size: 2em;
+    margin-bottom: 25px;
+    color: rgb(132, 38, 219);
+
+}
+
+#projects>p {
+    margin-bottom: 40px;
+
+}
+
+.contenedor-p {
+
+    width: 87vw;
+    margin: auto;
+    margin-bottom: 25px;
+    border-radius: 12px;
+}
+
+.contenedor-p a p {
+    font-weight: 800;
+    font-size: 1.5em;
+    color: rgb(132, 38, 219);
+
+}
+
+
+.preview {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 5px 6px 3px rgba(233, 240, 243, 0.753), 0 0 0 1px #b4bcca;
+}
+
+.contenedor-p a {
+    text-decoration: none;
+}
+
+#contact {
+    background-color: rgb(132, 38, 219);
+    color: rgb(245, 245, 245);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 25px 80px 25px;
+
+}
+
+.seccion-contacto-1 h1 {
+    font-size: 2em;
+    margin-bottom: 40px;
+    color: black;
+
+}
+
+.seccion-contacto-2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 40px;
+
+}
+
+.seccion-contacto-2 a {
+    text-decoration: none;
+}
+
+.seccion-contacto-2 a p {
+    color: rgb(245, 245, 245);
+    font-size: 1.125em;
+    font-weight: 800;
+}
+
+#contact p {
+    font-size: 1.125em;
+    font-weight: 800;
+}
+
+footer {
+    background-color: rgb(132, 38, 219);
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 1em;
+    font-weight: 800;
+}
+
+@media(min-width:1024px) {
+    .nav {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        min-height: 3.25rem;
+        padding: 1.2rem;
+
+    }
+
+    .icon-b {
+
+        max-height: 3rem;
+        width: auto;
+        padding: 0;
+        margin: 0px 1.2rem;
+    }
+
+    .nav ul {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        border: none;
+        margin: auto 1.2rem;
+
+    }
+
+    .nav ul li {
+        width: auto;
+        padding: 0 1.2rem;
+    }
+
+    .nav ul li a {
+        display: inline;
+        border: none;
+        padding: 0;
+        font-size: 1.3em;
+
+        width: auto;
+
+    }
+
+    .nav ul li a:hover {
+        font-size: 2em;
+        color: rgb(132, 38, 219);
+        background-color: rgb(245, 245, 245);
+    }
+
+
+    #welcome-section {
+
+        width: 90vw;
+        margin: auto;
+        display: flex;
+        height: 100vh;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .image-hero {
+        display: block;
+        max-height: 400px;
+
+    }
+
+    .subhero {
+        height: 400px;
+        width: 600px;
+        margin: 0;
+        margin-top: 80px;
+
+
+    }
+
+    .subhero h1 {
+        font-size: 4.5em;
+        padding: 10px 0px;
+
+    }
+
+    .acerca {
+
+        text-align: center;
+    }
+
+    .sub-acerca {
+
+        width: 65vw;
+        margin: auto;
+        padding: 2rem 0;
+
+    }
+
+    .acerca h1 {
+        font-size: 2.5em;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .acerca p {
+        display: block;
+        max-width: 50vw;
+        margin: auto;
+        font-size: 1.125em;
+    }
+
+    .subcono {
+        box-shadow: 0 5px 6px 3px rgba(233, 240, 243, 0.753), 0 0 0 1px #b4bcca;
+        max-width: 1024px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    .subcono h1 {
+        width: 100%;
+        font-size: 2.5em;
+        margin-bottom: 4rem;
+    }
+
+    .contenedor-c {
+        width: 128px;
+        margin: 3rem;
+    }
+
+    .contenedor-c p {
+        margin-top: 1rem;
+    }
+
+    .icono {
+        height: 80px;
+        width: auto;
+    }
+
+
+    #projects {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        text-align: center;
+        justify-content: space-between;
+
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #projects:first-child{
+        width: 100%;
+        
+    }
+    .project-tile{
+        width: 100%;
+    }
+    #projects h1 {
+        font-size: 2.5em;
+        margin-bottom: 2rem;
+        
+
+    } 
+
+    #projects p {
+        margin-bottom: 4rem;
+        font-size: 1.35em;
+    }
+
+    .contenedor-p {
+
+        width: 33rem;
+        margin: auto;
+        margin-bottom: 3rem;
+        border-radius: 12px;
+    }
+
+    .contenedor-p a p {
+        font-weight: 800;
+        font-size: 1.5em;
+        
+
+    }
+}
+
